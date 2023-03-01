@@ -14,40 +14,44 @@
     <script type="text/javascript" src="./script.js">
 </script>
 	<div class="container">
-		<h6>List of all transactions</h6>
-		<table class="table">
-			<tr>
-				<thead class="table-dark">
+		<caption>List of all transactions</caption>
+		<table class="table table-hover table-responsive">
+			<thead class="table-dark">
+				<tr>
 					<th>#</th>
 					<th>From</th>
 					<th>To</th>
 					<th>Amount($)</th>
-				</thead>
-			</tr>
-			<tr>
-				<td>1</td>
-				<td>Mark</td>
-				<td>Otto</td>
-				<td>1000</td>
-			</tr>
-			<tr>
-				<td>2</td>
-				<td>Jacob</td>
-				<td>Thornton</td>
-				<td>1500</td>
-			</tr>
-			<tr class="bottom">
-				<td>3</td>
-				<td>Jack</td>
-				<td>John</td>
-				<td>200</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td class="lastRow">Total 4000</td>
-			</tr>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>1000</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Jacob</td>
+					<td>Thornton</td>
+					<td>1500</td>
+				</tr>
+				<tr class="bottom">
+					<td>3</td>
+					<td>Jack</td>
+					<td>John</td>
+					<td>200</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td id="total">Total 4000</td>
+				</tr>
+			</tfoot>
 		</table>
 	</div>
 </body>
