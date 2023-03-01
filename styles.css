@@ -1,2 +1,10 @@
-
-/* Your CSS Code here. */
+.lastRow{
+	font-weight:bold;
+	padding-left:10px;
+}
+.bottom{
+	border-bottom:1px solid black;
+}
+h6{
+	color:rgb(132,143,152);
+}
