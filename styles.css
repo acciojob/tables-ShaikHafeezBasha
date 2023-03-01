@@ -1,6 +1,9 @@
-.lastRow{
+.foot1{
 	font-weight:bold;
-	padding-left:10px;
+}
+.foot{
+	font-weight:bold;
+	text-align:right;
 }
 .bottom{
 	border-bottom:1px solid black;
